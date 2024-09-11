@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hov{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.hov:hover
+{
+    transform: scale(1.05,1.05);
+}
+.hov2:hover
+{
+    transition: 0.5s ease-in-out;
+}
+.hov2:hover{
+    box-shadow: 4px 4px 10px black;
+}
